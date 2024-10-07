@@ -1,5 +1,5 @@
 import 'dart:developer';
-import 'main.dart';
+import '../models/destination.dart';
 
 class FavoritesRepository {
   final List<Destination> _favoriteDestinations = [

@@ -1,9 +1,12 @@
-import 'favorites_repository.dart';
-import 'main.dart';
+// ignore_for_file: unused_import
+
+import '../models/destination.dart';
+import '../repositories/favorites_repository.dart';
+import '../../../main.dart';
 import 'package:flutter/material.dart';
 
-class Remove_From_Favorites_Button extends StatelessWidget {
-  const Remove_From_Favorites_Button({
+class RemoveFromFavoritesButton extends StatelessWidget {
+  const RemoveFromFavoritesButton({
     super.key,
     required this.favoritesRepository,
     required this.destination,

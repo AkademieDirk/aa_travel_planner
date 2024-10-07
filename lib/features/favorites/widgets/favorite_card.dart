@@ -1,9 +1,11 @@
-import 'favorites_details_screen.dart';
-import 'favorites_repository.dart';
-import 'main.dart';
+import 'package:aa_travel_planner/features/favorites/models/destination.dart';
+import 'package:aa_travel_planner/features/favorites/widgets/remove_from_favorites_button.dart';
+
+import "../repositories/favorites_repository.dart";
+
 import 'package:flutter/material.dart';
 
-import 'remove__from__favorites__button.dart';
+import '../screens/favorites_details_screen.dart';
 
 class FavoriteCard extends StatelessWidget {
   final Destination destination;
@@ -64,7 +66,7 @@ class FavoriteCard extends StatelessWidget {
               ),
             ),
           ),
-          Remove_From_Favorites_Button(
+          RemoveFromFavoritesButton(
               favoritesRepository: favoritesRepository,
               destination: destination,
               onRemove: onRemove),

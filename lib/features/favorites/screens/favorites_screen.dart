@@ -1,7 +1,7 @@
-import 'favorite_card.dart';
-import 'favorites_repository.dart';
-import 'main.dart';
 import 'package:flutter/material.dart';
+import '../models/destination.dart';
+import '../repositories/favorites_repository.dart';
+import '../widgets/favorite_card.dart';
 
 class FavoritesScreen extends StatefulWidget {
   final FavoritesRepository favoritesRepository;

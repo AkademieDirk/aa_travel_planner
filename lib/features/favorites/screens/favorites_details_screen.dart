@@ -1,6 +1,6 @@
-import 'favorites_repository.dart';
-import 'main.dart';
 import 'package:flutter/material.dart';
+import '../models/destination.dart';
+import '../repositories/favorites_repository.dart';
 
 class FavoritesDetailsScreen extends StatelessWidget {
   final Destination destination;
